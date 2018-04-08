@@ -1,0 +1,1 @@
+console.log('Clone nodejs/node#v10.0.0-pre & build & install on system');
