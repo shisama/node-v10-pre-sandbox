@@ -1,3 +1,3 @@
 export function print(arg) {
-  console.log(arg)
+  console.log(arg + " ESM!");
 }

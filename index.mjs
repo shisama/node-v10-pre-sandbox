@@ -1,3 +1,3 @@
-import {print} from './foo';
+import {print} from './greeting';
 
-print('hello ESM');
+print('hello');

@@ -8,7 +8,7 @@
   "main": "index",
   "scripts": {
     "esm": "node --experimental-modules index",
-    "dynamic_import": "node --experimental-modules --harmony_dynamic_import dynamic_import",
+    "dynamic_import": "node --experimental-modules dynamic_import",
     "async_iteration": "node async_iteration",
     "promise_finally": "node promise_finally"
   },
