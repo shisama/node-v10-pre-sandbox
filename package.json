@@ -10,7 +10,8 @@
     "esm": "node --experimental-modules index",
     "dynamic_import": "node --experimental-modules dynamic_import",
     "async_iteration": "node async_iteration",
-    "promise_finally": "node promise_finally"
+    "promise_finally": "node promise_finally",
+    "bigint": "node --harmony_bigint bigint"
   },
   "author": "",
   "license": "ISC",
