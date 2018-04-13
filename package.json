@@ -12,7 +12,8 @@
     "async_iteration": "node async_iteration",
     "promise_finally": "node promise_finally",
     "bigint": "node --harmony_bigint bigint",
-    "import-meta": "node --experimental-modules import-meta"
+    "import-meta": "node --experimental-modules import-meta",
+    "optional-catch": "node optional-catch-binding"
   },
   "author": "",
   "license": "ISC",
