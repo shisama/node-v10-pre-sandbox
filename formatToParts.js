@@ -5,8 +5,8 @@ const formatter = new Intl.NumberFormat('ja', {
 });
 const yen = formatter.formatToParts(num).map(({type, value}) => {
   switch (type) {
-    case 'currency': return value.substr(-1);
-    default: return value;
+    case 'currency': return "(" + value.substr(-1) + ")";
+    default: return value.trim();
   }
 }).reduce((string, part) => {return string + part});
 console.log(yen);
