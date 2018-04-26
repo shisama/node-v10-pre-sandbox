@@ -14,7 +14,8 @@
     "bigint": "node --harmony_bigint bigint",
     "import-meta": "node --experimental-modules import-meta",
     "optional-catch": "node optional-catch-binding",
-    "formatToParts": "node formatToParts"
+    "formatToParts": "node formatToParts",
+    "array_values": "node --harmony-array-prototype-values array_values"
   },
   "author": "",
   "license": "ISC",
